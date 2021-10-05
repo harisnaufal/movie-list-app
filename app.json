@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "MyApp",
+    "slug": "my-apps",
+    "version": "1.0.1",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/adaptive-icon.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 30000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.myapp.mobile",
+      "buildNumber": "2",
+      "icon": "./assets/favicon.png"
+    },
+    "android": {
+      "useNextNotificationsApi": true,
+      "package": "com.myapp.mobile",
+      "versionCode": 8,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "MANAGE_DOCUMENTS",
+        "READ_EXTERNAL_STORAGE",
+        "READ_PHONE_STATE",
+        "SYSTEM_BRIGHTNESS",
+        "VIBRATE",
+        "WAKE_LOCK",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "notification": {
+      "icon": "./assets/favicon.png",
+      "color": "#00428C"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "privacy": "unlisted",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#00428C"
+    }
+  }
+}

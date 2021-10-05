@@ -1,0 +1,36 @@
+export const Colors = {
+  WHITE: '#FFFFFF',
+  BONEWHITE: '#F8F8F8',
+
+  // Black Region
+  PRIMARYBLACK: '#000000',
+  SECONDARYBLACK: '#151411',
+
+  // Grey Region
+  PRIMARYGREY: '#ABABAC',
+  DARKGREY: '#71706D',
+  NORMALGREY: '#707070',
+  GREY: '#D3D3D3',
+  SOFTGREY: '#EBEBEB',
+  SOFTGREY2: '#DBDBDB',
+
+  // Blue Region
+  PRIMARYBLUE: '#00428C',
+  SECONDARYBLUE: '#004191',
+  BLUE: '#004FAC',
+  SKYBLUE: '#57A4FF',
+  OCEANBLUE: '#02C0F3',
+  SEABLUE: '#29B5CE',
+  AQUABLUE: '#00FBFF',
+  TINYBLUE: '#3B90F0',
+  SOFTBLUE: '#F3FBFD',
+  BUBBLEGUM: '#3ABBD2',
+
+  // Green Region
+  GREEN: '#029E81',
+
+  // Red Region
+  SOFTRED: '#FFEBED',
+  PRIMARYRED: '#EB5757',
+  RED: '#E01111',
+};
